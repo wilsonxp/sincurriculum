@@ -1,0 +1,261 @@
+body {
+	
+	padding: 0px;
+	background: #FFFFFF url(images/img02.jpg) repeat-x left top;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	color: #969493;
+	margin: 0px;
+	margin-top: 100px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+	font-weight: normal;
+	color: #148DFB;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+}
+
+a {
+	text-decoration: none;
+	color: #148DFB;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+header {
+	overflow: hidden;
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px 0px;
+	background: url(images/img01.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 320px;
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	display: block;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: -3px;
+	text-align: center;
+	font-size: 3.1em;
+}
+
+#logo h1 a {
+	font-family: 'Arvo', serif;
+	color: #FFFFFF;
+}
+
+#logo p {
+	margin-top: -10px;
+	padding: 0px 0 0 0px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#logo p a {
+	color: #FFFFFF;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* ------- Menu -----------*/
+
+#menu {
+	float: right;
+	width: 600px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 25px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	height: 65px;
+	padding: 0px 15px 0px 15px;
+}
+
+#menu a {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	margin-right: 1px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	border-bottom: 5px solid #2E2E2E;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+}
+
+
+/* Three Column Footer Content */
+/*--contenido--*/
+section{
+	width: 100%;
+	margin: 0px auto;
+}
+
+#bienvenida{
+	background: #57adfb;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 4px 0px #000000;
+	box-shadow: 1px 1px 4px 0px #000000;
+	color: white;
+	margin-top: 20px; 
+	padding: 35px;
+	margin: 20px 15% auto;
+}
+#bienvenida h2{
+	color: white;
+	font-size: 3em;
+}
+
+#bienvenida p{
+	margin-top: 20px;
+	font-size: 16px; 
+	line-height: 200%;
+}
+#linkregist{
+    background: #fbc003;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: .8px .8px 3px 0px #000000;
+	box-shadow: .8px .8px 3px 0px #000000;
+	font-size: 50px;
+	margin: 10px 35% auto;
+	padding: 0px;
+	text-align: center;
+}
+#linkregist a{
+	color: white;
+	display: block; 
+	text-shadow: 1px 1px 1px #4a4a4a;
+}
+
+#linkregist:hover{
+	-webkit-box-shadow: inset .5px .5px 3px 0px #000000;
+	box-shadow: inset .5px .5px 4px 0px #000000;
+	font-size: 49.5px;
+	margin: 10.4px 35.1% auto;
+}
+ #apurate{
+ 	background: black;
+ 	background-image: url("images/burried.png");
+ 	-webkit-box-shadow: inset 0px 0px 15px 7px #000000;
+	box-shadow: inset 0px 0px 15px 7px #000000;
+	margin: 0px;
+	margin-top: 40px;
+	padding-bottom: 1px;
+ 	text-align: center;
+ 	text-shadow: 1px 1px 1px #000;
+ 	width: 100%;
+ }
+ #apurate p{
+ 	color: white;
+ 	font-size: 60px;
+ 	font-weight: bold;
+ 	font-variant:small-caps;
+ }
+ #apurate p strong{
+ 	color: #148DFB;
+ }
+/*---publicaciones---*/
+#publicaciones{
+	background: #57adfb;
+	border-radius: 2px;
+	margin: 20px 15% auto;
+}
+/*------fin publicaciones-------*/
+/*--fin contenido---*/
+/*footer-content {
+	background: #148DFB;
+}*/
+
+footer {
+	width: 960x;
+	margin: 0px auto;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background: #148DFB;
+}
+
+footer p {
+	margin: 0;
+	padding-top: 30px;
+	line-height: normal;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+footer a {
+	color: #FFFFFF;
+}
